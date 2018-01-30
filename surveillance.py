@@ -8,6 +8,15 @@
 # to only examine a specific (cropped) portion of the image for motion (to reduce false
 # positives), and to save a video file of the "motion incident".
 
+# To run the program: 
+# > python surveillance.py -c conf.json
+#
+# To run the program in "aiming" mode (to see the cropped image size and/or position the camera):
+# > python surveillance.py -c conf.json --aim True
+
+
+
+
 # Import the necessary packages
 from pyimagesearch.tempimage import TempImage
 import argparse
