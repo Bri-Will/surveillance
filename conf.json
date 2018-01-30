@@ -1,0 +1,20 @@
+{
+	"show_video": true,
+	"send_email": true,
+	"crop": true,
+	"from_addr": "xxxxx@gmail.com",
+	"to_addr": "xxxxxx@yahoo.com",
+	"email_pwd": "xxxxxxxxxxx",
+	"email_server": "smtp.gmail.com",
+	"email_port": 587,
+	"min_upload_seconds": 20.0,
+	"min_motion_frames": 2,
+	"min_no_motion_frames": 30,
+	"camera_warmup_time": 2.5,
+	"delta_thresh": 5,
+	"resolution": [640, 480],
+	"crop_pt1": [80, 110],
+	"crop_pt2": [320, 320],
+	"fps": 10,
+	"min_area": 1000
+}
